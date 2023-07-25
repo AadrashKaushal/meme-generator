@@ -1,4 +1,4 @@
-if(typeof window !== 'undefined'){
+
     const generateMemeBtn = document.querySelector(
         ".meme-generator .generate-meme-btn"
       );
@@ -23,4 +23,3 @@ if(typeof window !== 'undefined'){
       generateMemeBtn.addEventListener("click", generateMeme);
       
       generateMeme();
-}
